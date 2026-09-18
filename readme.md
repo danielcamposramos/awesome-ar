@@ -128,6 +128,11 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 - [awesome-webxr](https://github.com/msub2/awesome-webxr) - The browser side: WebXR engines, frameworks and communities, which this list leaves to it.
 - [awesome-vr](https://github.com/danielcamposramos/awesome-vr) - Virtual reality: headsets, open runtimes, standards and the platforms that were switched off.
 - [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy) - The stereo medium itself, from Wheatstone in 1838 to spatial video: formats, packings, signalling and 3D cinema.
+- [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit) - A large iOS-specific collection, for Apple platform work in particular.
+- [awesome-mixed-reality](https://github.com/saurabhchalke/awesome-mixed-reality) - Mixed reality development resources spanning both sides of the passthrough line.
+- [awesome-visionOS](https://github.com/tomkrikorian/awesome-visionOS) - Apple's platform in depth, including its passthrough approach.
+- [awesome-lidar](https://github.com/szenergy/awesome-lidar) - Lidar sensors and datasets, for the depth-sensing hardware behind much of the tracking above.
+- [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) - The research field underneath the SLAM and tracking section.
 
 ## Events
 
