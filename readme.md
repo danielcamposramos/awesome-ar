@@ -44,8 +44,10 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 - [Head-mounted display](https://en.wikipedia.org/wiki/Head-mounted_display) - In 1968 Ivan Sutherland and his student Bob Sproull built the first head-mounted display driven by computer graphics, at Harvard. It drew stereoscopic wireframes over the real room through half-silvered mirrors, which makes it an AR display before the phrase existed.
 - [A head-mounted three dimensional display](https://www.computerhistory.org/collections/catalog/102792811) - The Computer History Museum's record of Sutherland's 1968 AFIPS paper and the slides he presented with it, naming H. Quintin Foster Jr. as the person wearing the display in the photographs.
 - [Augmented reality](https://en.wikipedia.org/wiki/Augmented_reality) - The subject's own overview, and the source of the name: the term is attributed to Thomas Caudell, a Boeing researcher who, with David Mizell, proposed head-worn displays that would show assembly workers where each wire of a 777 harness belonged. AR's first job was maintenance instructions, not games.
+- [Caudell and Mizell, 1992](https://ieeexplore.ieee.org/document/183317) - "Augmented reality: an application of heads-up display technology to manual manufacturing processes", the Boeing paper itself.
 - [Virtual fixtures](https://en.wikipedia.org/wiki/Virtual_fixture) - Louis Rosenberg's 1992 system at the USAF Armstrong Laboratory, described as the first immersive augmented reality system ever built: overlays that guided a human operator's hands rather than simply informing them.
 - [Virtual Fixtures, 1991–1994](https://sites.google.com/view/louisrosenberg/virtual-fixtures-1991-1994) - Louis Rosenberg's own account of the USAF Armstrong Laboratory, Stanford and NASA Ames project, with haptics and 3D audio alongside the visual overlays.
+- [Virtual Fixtures technical report](https://web.archive.org/web/20250201172603/https://apps.dtic.mil/sti/pdfs/ADA292450.pdf) - Rosenberg's Armstrong Laboratory report AL/CF-TR-1994-0089, "The Use of Virtual Fixtures as Perceptual Overlays to Enhance Operator Performance in Remote Environments", archived from DTIC.
 - [KARMA](https://graphics.cs.columbia.edu/projects/karma/karma.html) - Knowledge-based Augmented Reality for Maintenance Assistance, by Steven Feiner, Blair MacIntyre and Doree Seligmann at Columbia, 1993: a see-through headset that explained how to service a laser printer, and the ancestor of every "AR for field service" pitch since.
 - [Reality–virtuality continuum](https://en.wikipedia.org/wiki/Reality%E2%80%93virtuality_continuum) - Milgram, Takemura, Utsumi and Kishino's 1994 framing, which gave the field the vocabulary it still argues in, including where "mixed reality" sits between the two ends.
 - [Steve Mann](https://en.wikipedia.org/wiki/Steve_Mann_%28inventor%29) - The wearable-computing pioneer: Digital Eye Glass and EyeTap work from 1978, founder of the MIT Media Lab's wearable computing project, now at the University of Toronto.
@@ -88,11 +90,13 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 - [INMO](https://www.inmo.com/pages/about-us) - Shenzhen maker of wireless AR glasses with on-device SLAM and six-degree-of-freedom tracking.
 - [RayNeo](https://www.rayneo.com/pages/about-us) - TCL's AR glasses brand, built on binocular full-colour MicroLED waveguides.
 - [OPPO Air Glass](https://www.oppo.com/en/newsroom/press/oppo-air-glass/) - A 30 g monocular waveguide "assisted reality" device announced in December 2021 and sold in mainland China from early 2022.
-- [Epson Moverio](https://www.epson.eu/en_EU/moverio-smart-glasses) - Epson's Japanese line of binocular see-through smart glasses with Si-OLED displays, used for remote assistance, guided work and captioning.
+- [Epson Moverio](https://www.epson.eu/en_EU/moverio-smart-glasses) - Epson's Japanese line of binocular see-through smart glasses with Si-OLED displays, used for remote assistance, guided work and captioning, with a [developer portal](https://tech.moverio.epson.com/en/).
 - [Canon MREAL](https://global.canon/en/technology/canon-tech/tech/mr/) - Canon's video see-through mixed-reality headsets, prototyped from 2007; the MREAL X1 registers its position from ordinary floor patterns, with no markers.
 - [Sony and Siemens XR headset](https://www.sony.co.jp/en/news-release/202401/24-001E/) - Sony's January 2024 announcement of a video see-through headset with 4K OLED microdisplays, developed with Siemens for industrial design work.
 - [Sharp and NTT Docomo MiRZA](https://roadtovr.com/sharp-ntt-docomo-mizra-ar-glasses/) - 125 g AR glasses from Sharp and NTT Docomo's XR venture, with a 45° field of view through LetinAR optics, launched in Japan in autumn 2024.
 - [LetinAR](https://letinar.com/) - South Korean maker of "pin mirror" AR combiner optics, used by several Asian glasses makers.
+- [Shadow Creator](https://web.archive.org/web/20200806125327/http://www.shadowcreator.com:80/) - Shanghai maker of the JIMO and Action One mixed-reality glasses and the Halo Mini, whose tagline promised to let you "see the world like Iron Man". Its domain now serves unrelated content, so this is the archived 2020 site.
+- [Baidu DuSee](https://venturebeat.com/2016/08/03/baidu-augmented-reality/) - Baidu's 2016 AR platform inside its mobile search app, relying on computer vision on ordinary phones rather than depth hardware.
 - [Lenovo ThinkReality A3](https://news.lenovo.com/pressroom/press-releases/thinkreality-a3-most-versatile-smart-glasses-ever-designed-for-the-enterprise/) - Lenovo's January 2021 enterprise AR glasses, in PC and Industrial editions.
 
 ## Open hardware
@@ -163,6 +167,7 @@ The editions and what each document covers are pinned in [standards.md](standard
 ### Industry
 
 - [Google Glass takes flight at Boeing](https://www.cio.com/article/238599/google-glass-takes-flight-at-boeing.html) - CIO's 2016 report on Boeing's wire-harness pilot with Glass Enterprise and Upskill's Skylight: assembly time down 25% and errors roughly halved, twenty-four years after Caudell and Mizell proposed the same job.
+- [Lockheed Martin embraces AR on the shop floor](https://www.eetimes.com/lockheed-martin-embraces-ar-on-the-shop-floor/) - EE Times' 2019 report on HoloLens work instructions for NASA's Orion spacecraft, with Lockheed reporting a 95% cut in the time to interpret instructions and 85% in training time.
 - [AR in manufacturing and Industry 4.0](https://arxiv.org/abs/2112.11190) - Ziaee and Hamedi's survey of AR's industrial track record and open problems.
 
 ### Automotive
@@ -178,6 +183,7 @@ The editions and what each document covers are pinned in [standards.md](standard
 - [Registration errors in augmented reality systems](https://www.cs.unc.edu/techreports/95-016.pdf) - Richard Holloway's 1995 UNC dissertation, still the foundational measurement of why the image does not sit still: system delay, optical distortion and tracker error, with delay dominating everything else at moderate head speeds.
 - [Death by Pokémon GO](https://www.nber.org/system/files/working_papers/w24308/w24308.pdf) - An NBER working paper measuring crashes, injuries and deaths near locations where the game could be played while driving. It belongs in an AR list precisely because it is not about headsets: attention is the resource this medium spends.
 - [Inattentional blindness with AR head-up displays](https://arxiv.org/abs/2505.00879) - A 2025 on-road study: as AR-HUD tasks get harder, drivers notice fewer real-world events in their central field of view.
+- [Distraction potential of AR head-up displays](https://journals.sagepub.com/doi/10.1177/0018720819844845) - Kim and Gabbard's study in *Human Factors* of how AR-HUD graphics compete for a driver's attention (paywalled).
 - [XR Access](https://xraccess.org/about/) - The Cornell Tech consortium founded in 2019 to build shared accessibility knowledge, tools and code for XR.
 
 ## Platforms that closed
@@ -188,7 +194,7 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 - [HoloLens 2 discontinuation](https://techcrunch.com/2024/10/01/microsoft-hololens-2-discontinued-with-no-successor-in-site/) - Confirmed in October 2024 with no successor, updates promised to the end of 2027. The most capable AR headset ever sold has no replacement from its maker.
 - [Meta Spark](https://spark.meta.com/blog/meta-spark-announcement/) - Meta's AR creation platform for Instagram and Facebook effects, shut to third-party creators on 14 January 2025, taking a large body of creator work with it.
 - [Glass Enterprise Edition end of sale](https://support.google.com/glass-enterprise/customer/answer/13417888?hl=en) - Google's notice: sales stopped on 15 March 2023 and support on 15 September 2023, with no further software updates.
-- [Magic Leap 1 end of life](https://techcrunch.com/2023/09/01/magic-leaps-original-headset-will-stop-working-at-the-end-of-2024) - Magic Leap told owners the first headset's cloud services and core functions would stop after 31 December 2024.
+- [Magic Leap 1 end of life](https://www.magicleap.care/hc/en-us/articles/18878883445645-Magic-Leap-1-End-of-Life) - Magic Leap's notice that the first headset's cloud services and core functions would stop after 31 December 2024, as [reported by TechCrunch](https://techcrunch.com/2023/09/01/magic-leaps-original-headset-will-stop-working-at-the-end-of-2024).
 - [Daqri](https://en.wikipedia.org/wiki/Daqri) - Maker of the industrial Smart Helmet (2014) and Smart Glasses (2017), which announced the shutdown of its hardware and cloud platforms in September 2019.
 - [An AR glasses pioneer collapses](https://techcrunch.com/2019/01/10/an-ar-glasses-pioneer-collapses/) - How Osterhout Design Group, after raising $58m in 2016, never shipped its R-8 or R-9 glasses and sold its patents in January 2019.
 - [Layar](https://en.wikipedia.org/wiki/Layar) - The Amsterdam AR browser of 2009, acquired in 2014 and wound down by 2016, and the clearest artefact of the era when AR was going to be a browser.
@@ -199,6 +205,7 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 
 - [AREA](https://thearea.org/about-us/) - The Augmented Reality for Enterprise Alliance, a non-profit that brings vendors, enterprise adopters and researchers together on interoperable industrial AR.
 - [XR Association](https://xra.org/about/) - The industry association of headset and platform makers, founded by Google, HTC Vive, Microsoft, Meta and Sony Interactive Entertainment.
+- [r/augmentedreality](https://www.reddit.com/r/augmentedreality/) - The main AR discussion subreddit.
 - [VR/AR Association](https://www.thevrara.com/) - A global member network with city chapters, connecting XR businesses, researchers and professionals.
 
 ## In fiction

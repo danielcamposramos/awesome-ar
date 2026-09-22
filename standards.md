@@ -8,15 +8,15 @@ does not host copies, because each body holds copyright over its own text.
 
 ### ISO/IEC 18039:2019 — Mixed and augmented reality (MAR) reference model
 
+- [ISO catalogue](https://www.iso.org/standard/30824.html)
 - [IEC Webstore](https://webstore.iec.ch/en/publication/64756)
 
 Scope, key concepts, terminology and a generalised system architecture for
-MAR applications, components, systems and specifications. ISO's own catalogue
-page refused an automated check; the IEC Webstore lists the same joint
-standard.
+MAR applications, components, systems and specifications.
 
 ### ISO/IEC 18040:2019 — Live actor and entity representation in MAR
 
+- [ISO catalogue](https://www.iso.org/standard/70721.html)
 - [IEC Webstore](https://webstore.iec.ch/en/publication/65241)
 
 A reference model, system framework and exchange format for representing and
