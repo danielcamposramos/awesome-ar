@@ -21,6 +21,7 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 - [Human factors](#human-factors)
 - [Platforms that closed](#platforms-that-closed)
 - [Communities and archives](#communities-and-archives)
+- [In fiction](#in-fiction)
 - [Related lists](#related-lists)
 - [Events](#events)
 - [Known gaps](#known-gaps)
@@ -36,6 +37,7 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 - [Head-up display](https://en.wikipedia.org/wiki/Head-up_display) - Where the idea starts, in aviation rather than computing: reflector gunsights, then a 1942 British system combining radar with the gunsight, then the Royal Navy's Buccaneer, from whose era the term itself dates. The Oldsmobile Cutlass Supreme put one in a production car in 1988.
 - [AIRPASS](https://en.wikipedia.org/wiki/AIRPASS) - Ferranti's interception radar for the English Electric Lightning, in RAF service from 1960, which fed what its history describes as the world's first head-up display.
 - [Helmet-mounted display](https://en.wikipedia.org/wiki/Helmet-mounted_display) - The military line of head-worn sights: Hughes's Electrocular in 1962, Honeywell's sight on US Navy F-4Js in the early 1970s, South African helmet sights from 1975, the MiG-29 with the R-73 missile and the Apache's IHADSS in 1985, and Elbit's DASH in the early 1990s.
+- [F-35 Gen III helmet display](https://www.rtx.com/collinsaerospace/what-we-do/industries/military-and-defense/displays-and-controls/airborne/helmet-mounted-displays/f-35-gen-iii-helmet-mounted-display-system) - Collins Aerospace's helmet-mounted display for the F-35, drawing flight and sensor information on the visor wherever the pilot looks: the current end of the line that started with gunsights.
 
 ### Laboratory origins, 1968–2002
 
@@ -198,6 +200,17 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 - [AREA](https://thearea.org/about-us/) - The Augmented Reality for Enterprise Alliance, a non-profit that brings vendors, enterprise adopters and researchers together on interoperable industrial AR.
 - [XR Association](https://xra.org/about/) - The industry association of headset and platform makers, founded by Google, HTC Vive, Microsoft, Meta and Sony Interactive Entertainment.
 - [VR/AR Association](https://www.thevrara.com/) - A global member network with city chapters, connecting XR businesses, researchers and professionals.
+
+## In fiction
+
+Fiction reached augmented reality first and got as much wrong as right. Each entry says which.
+
+- [Star Wars](https://en.wikipedia.org/wiki/Holography_in_fiction) - Princess Leia's 1977 message, a figure standing in empty air and visible from any side, is the image most people mean by "hologram". Real holograms need a surface or plate to form on; stage "holograms" are Pepper's ghost (see History), and depth without glasses is the subject of [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy) and [awesome-holography](https://github.com/bchao1/awesome-holography).
+- [The Terminator](https://www.pagetable.com/?p=64) - The T-800's 1984 point-of-view display overlays text and targeting on the scene, a head-up display in all but name (see the F-35 helmet above). Its scrolling "code" is real Apple II 6502 assembly taken from *Nibble* magazine.
+- [Back to the Future Part II](https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II) - The 1989 film's "Jaws 19" shark lunges out of a cinema front in its imagined 2015. It was ILM computer imagery added in post-production, and the joke leans on the real stereoscopic [Jaws 3-D](https://en.wikipedia.org/wiki/Jaws_3-D). Phones put creatures in the street today (Pokémon Go, above), but only on a screen.
+- [Minority Report](https://www.technologyreview.com/2011/04/22/195179/the-struggle-to-spread-the-minority-report-interface/) - The 2002 film's gestural interface "wasn't a special-effects fantasy", in MIT Technology Review's words: it was g-speak, a working system by MIT Media Lab researcher John Underkoffler, the film's science adviser, later built out at Oblong Industries. His own account is in his [TED profile](https://www.ted.com/speakers/john_underkoffler).
+- [Den-noh Coil](https://en.wikipedia.org/wiki/Den-noh_Coil) - NHK's 2007 anime of children wearing AR glasses in a city where network layers are superimposed on the real world. Shared, persistent layers are exactly what geospatial anchoring (GeoPose, Open AR Cloud, above) is still trying to make real.
+- [Iron Man](https://en.wikipedia.org/wiki/Iron_Man_%282008_film%29) - The 2008 film's helmet display has a working counterpart in fighter helmets (the F-35's above). The workshop Stark sculpts in mid-air does not: without a surface or medium, there is nothing for the light to form on.
 
 ## Related lists
 
