@@ -133,6 +133,12 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 - [awesome-visionOS](https://github.com/tomkrikorian/awesome-visionOS) - Apple's platform in depth, including its passthrough approach.
 - [awesome-lidar](https://github.com/szenergy/awesome-lidar) - Lidar sensors and datasets, for the depth-sensing hardware behind much of the tracking above.
 - [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) - The research field underneath the SLAM and tracking section.
+- [awesome-linux-hdr](https://github.com/danielcamposramos/awesome-linux-hdr) - HDR and deep colour on Linux, from specification to photons: the display chain behind any screen, headset panels included.
+- [awesome-WebAR](https://github.com/tobiasbueschel/awesome-WebAR) - Browser-based AR projects and libraries, the AR-specific counterpart to awesome-webxr.
+- [Awesome-ARCore](https://github.com/olucurious/Awesome-ARCore) - Projects and resources for Google's ARCore, the Android counterpart of Awesome-ARKit; dormant since 2021.
+- [awesome-slam](https://github.com/kanster/awesome-slam) - SLAM tutorials, projects and communities behind the tracking section; dormant since 2020.
+- [awesome-point-cloud-processing](https://github.com/mmolero/awesome-point-cloud-processing) - Point cloud libraries and software, the data that lidar and depth sensors hand to AR tracking.
+- [awesome-a11y](https://github.com/brunopulis/awesome-a11y) - Accessibility resources in general, for the principles behind this list's accessibility entries.
 
 ## Events
 
