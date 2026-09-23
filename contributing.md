@@ -26,3 +26,7 @@ Dead platforms are welcome and wanted. AR has buried more products than it ships
 - If a project is abandoned, unmaintained or a service is shut down, say so plainly in the description, with the date where it is known.
 - Historical entries should carry a date.
 - Never work around a site that blocks automated access. If a source cannot be opened normally, leave it out and say so.
+
+## Using an AI assistant
+
+Load [ai-skill/SKILL.md](ai-skill/SKILL.md) first. It carries these rules plus the verification discipline behind every entry, and it works with any assistant. Assistance is welcome and never held against you; see [PROVENANCE.md](PROVENANCE.md#on-slop).
