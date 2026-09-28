@@ -1,0 +1,5 @@
+# Sites that refuse automated link checks but open in a browser: they are
+# checked by hand (Daniel and Claude, 2026-09-28), not dropped. The weekly scan
+# accepts 403 and 429 already; these fail the checker another way.
+# refuses the checker (HTTP/2 error); the article loads
+^https?://(www\.)?eetimes\.com/

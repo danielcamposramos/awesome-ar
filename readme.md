@@ -81,7 +81,7 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 - [Meta Orion](https://www.uploadvr.com/meta-connect-2024-orion-prototype-ar-glasses/) - The prototype Meta showed in September 2024 at a 70° field of view, and explicitly did not sell: around $10,000 a unit to build. Included because the honest state of the art is a prototype, not a product.
 - [Xreal One](https://tutorials.xreal.com/docs/glasses/one-series/spec/) - Birdbath viewer glasses with 1920×1080 micro-OLED per eye at 50°, up to 120 Hz: the category that is really a wearable monitor, and the most widely sold AR hardware by far.
 - [Viture Pro 2](https://www.viture.com/pro2) - The same category from a different maker, at 63 grams, with dioptre adjustment built in so glasses wearers do not need inserts.
-- [Rokid Glasses](https://global.rokid.com/products/rokid-glasses) - Binocular micro-LED waveguides at 30° and 49 grams, aimed at information rather than immersion: notifications, a camera, and live translation.
+- [Rokid Glasses](https://web.archive.org/web/20260830160617/https://global.rokid.com/products/rokid-glasses) - Binocular micro-LED waveguides at 30° and 49 grams, aimed at information rather than immersion: notifications, a camera, and live translation.
 - [Even Realities G1](https://www.evenrealities.com/g1) - The minimal end: a micro-LED waveguide at 25° and 640×200 per eye, claiming 98% passthrough clarity and over a day of battery. It shows text, and that is the point.
 
 ### China, Japan and Korea
