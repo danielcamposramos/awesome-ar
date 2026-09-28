@@ -177,6 +177,15 @@ The editions and what each document covers are pinned in [standards.md](standard
 - [Hyundai Mobis holographic windshield](https://www.mobis.com/en/aboutus/press.do?category=press&idx=6003) - Hyundai Mobis's January 2025 announcement with ZEISS of a film that turns the whole windshield into a display, targeted at mass production in 2027.
 - [Automotive AR head-up displays](https://pmc.ncbi.nlm.nih.gov/articles/PMC11052328/) - A 2024 review of AR-HUD optics: picture generation, the trade-offs between field of view, eyebox and image distance, and the case for full-windshield 3D displays.
 
+### Digital twins
+
+VR takes a person into a digital twin; AR brings the twin to the place, registered on the real thing, so a building's model can be seen on its construction site or a city's plan on its street. That only works if the device knows where it stands in the twin's coordinates, which is the job of the [geospatial anchoring standards](standards.md#geospatial-anchoring). The full-scale, remote side of twins is in [awesome-vr](https://github.com/danielcamposramos/awesome-vr#digital-twins).
+
+- [ARCore Geospatial API](https://developers.google.com/ar/develop/geospatial) - Google's anchoring at the scale of the planet: the camera view is matched against a localisation model built from Street View imagery, a global 3D point cloud, so content can be placed by latitude and longitude, on terrain or on rooftops, wherever Street View has been.
+- [Photorealistic 3D Tiles](https://developers.google.com/maps/documentation/tile/3d-tiles) - Google's textured 3D mesh of many of the world's populated areas, served to any [OGC 3D Tiles](https://www.ogc.org/standards/3dtiles/) renderer, such as CesiumJS. It needs a billing account and an API key, and developers billed in the European Economic Area have had separate terms since 8 July 2025, under which some Map Tiles content is no longer returned.
+- [IFC](https://technical.buildingsmart.org/standards/ifc/) - buildingSMART's Industry Foundation Classes, the open, vendor-neutral description of buildings and civil infrastructure (ISO 16739-1:2024), and the open form of the building model an on-site AR view can overlay.
+- [CityGML](https://www.ogc.org/standards/citygml/) - The OGC model and exchange format for virtual 3D city models, written for smart cities and urban digital twins; its own list of uses includes planning, disaster management, 3D cadastre, tourism and pedestrian navigation.
+
 ## Human factors
 
 - [Vergence–accommodation conflict](https://en.wikipedia.org/wiki/Vergence-accommodation_conflict) - Your eyes converge at the virtual distance and focus at the real one, and every fixed-focus headset creates the mismatch. It causes eye strain and fatigue, and it is the reason varifocal optics keep being attempted.
@@ -249,6 +258,8 @@ Stated openly, because a list that hides its blind spots is worse than one that 
 **Industrial deployments** have a first measured account (Boeing's 2016 wire-harness pilot) and a survey, but still too few independent results on what current factory and field-service AR achieves.
 
 **Communities** are represented by their associations. The active discussion forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
+
+**Digital twins on site** have a section built from the platforms' and standards bodies' own pages. Measured results from AR used against a live twin, on a construction site or a street, are wanted.
 
 **Automotive AR** has its own section now, from suppliers and a review. Carmakers' own documentation of production AR-HUDs could not be verified yet.
 
