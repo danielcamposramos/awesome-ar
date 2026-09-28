@@ -179,12 +179,14 @@ The editions and what each document covers are pinned in [standards.md](standard
 
 ### Digital twins
 
-VR takes a person into a digital twin; AR brings the twin to the place, registered on the real thing, so a building's model can be seen on its construction site or a city's plan on its street. That only works if the device knows where it stands in the twin's coordinates, which is the job of the [geospatial anchoring standards](standards.md#geospatial-anchoring). The full-scale, remote side of twins is in [awesome-vr](https://github.com/danielcamposramos/awesome-vr#digital-twins).
+VR takes a person into a digital twin; AR brings the twin to the place, registered on the real thing, so a building's model can be seen on its construction site or a city's plan on its street. That only works if the device knows where it stands in the twin's coordinates, which is the job of the [geospatial anchoring standards](standards.md#geospatial-anchoring). The full-scale, remote side of twins is in [awesome-vr](https://github.com/danielcamposramos/awesome-vr#digital-twins). The section was prompted by a digital-twin discussion that Milton Ponson, co-chair of the W3C Procedural Memory Knowledge Representation Community Group, shared with Daniel.
 
 - [ARCore Geospatial API](https://developers.google.com/ar/develop/geospatial) - Google's anchoring at the scale of the planet: the camera view is matched against a localisation model built from Street View imagery, a global 3D point cloud, so content can be placed by latitude and longitude, on terrain or on rooftops, wherever Street View has been.
 - [Photorealistic 3D Tiles](https://developers.google.com/maps/documentation/tile/3d-tiles) - Google's textured 3D mesh of many of the world's populated areas, served to any [OGC 3D Tiles](https://www.ogc.org/standards/3dtiles/) renderer, such as CesiumJS. It needs a billing account and an API key, and developers billed in the European Economic Area have had separate terms since 8 July 2025, under which some Map Tiles content is no longer returned.
 - [IFC](https://technical.buildingsmart.org/standards/ifc/) - buildingSMART's Industry Foundation Classes, the open, vendor-neutral description of buildings and civil infrastructure (ISO 16739-1:2024), and the open form of the building model an on-site AR view can overlay.
 - [CityGML](https://www.ogc.org/standards/citygml/) - The OGC model and exchange format for virtual 3D city models, written for smart cities and urban digital twins; its own list of uses includes planning, disaster management, 3D cadastre, tourism and pedestrian navigation.
+- [Digital twins for extended reality tourism](https://link.springer.com/chapter/10.1007/978-3-031-97769-5_3) - Warsinke, Vona and colleagues (2026, paywalled): 84 people in Spain and Germany compared an AR tour for on-site visits with a VR tour for remote ones, both built on digital twins. The AR tour earned high ratings for experience with a low task load; the VR tour gave more presence, at the cost of usability trouble and cybersickness. Age and earlier XR use correlated with the results for both, so the design has to start from newcomers.
+- [W3C PM-KR Community Group](https://www.w3.org/community/pm-kr/) - Launched in February 2026 to store knowledge once, as executable procedures that people and AI systems consume from the same source. Its reference implementation, [Knowledge3D](https://github.com/danielcamposramos/Knowledge3D) (Apache-2.0), describes one source rendered for visual displays, Braille readers, audio and haptic devices, which is what a twin shown on site needs when not every visitor sees it. Disclosure: Daniel, who maintains this list, chairs the group with Milton Ponson, and Knowledge3D is his project. Neither is a digital-twin product today; they are listed for the approach.
 
 ## Human factors
 
@@ -259,7 +261,7 @@ Stated openly, because a list that hides its blind spots is worse than one that 
 
 **Communities** are represented by their associations. The active discussion forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
 
-**Digital twins on site** have a section built from the platforms' and standards bodies' own pages. Measured results from AR used against a live twin, on a construction site or a street, are wanted.
+**Digital twins on site** have a section built mostly from the platforms' and standards bodies' own pages, and one measured study (a tourism tour). Measured results from AR used against a live twin, on a construction site or a street, are wanted.
 
 **Automotive AR** has its own section now, from suppliers and a review. Carmakers' own documentation of production AR-HUDs could not be verified yet.
 
