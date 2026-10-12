@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: dataset
+title: "awesome-ar: curated resources for augmented reality"
+abstract: "Curated resources for augmented reality: see-through optics, glasses and headsets, open hardware, SDKs, SLAM and visual-inertial tracking, standards, human factors, and the platforms that closed."
+authors:
+  - family-names: "Ramos"
+    given-names: "Daniel Campos"
+    orcid: "https://orcid.org/0009-0001-4546-8673"
+license: CC0-1.0
+repository-code: "https://github.com/danielcamposramos/awesome-ar"
+keywords:
+  - "augmented reality"
+  - "AR"
+  - "smart glasses"
+  - "waveguide"
+  - "SLAM"
+  - "OpenXR"
+  - "mixed reality"
+  - "computer vision"
