@@ -1,0 +1,25 @@
+{
+  "title": "awesome-ar: curated resources for augmented reality",
+  "description": "Curated resources for augmented reality: see-through optics, glasses and headsets, open hardware, SDKs, SLAM and visual-inertial tracking, standards, human factors, and the platforms that closed.",
+  "creators": [
+    {
+      "name": "Ramos, Daniel Campos",
+      "orcid": "0009-0001-4546-8673"
+    }
+  ],
+  "license": "cc0-1.0",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "augmented reality",
+    "AR",
+    "smart glasses",
+    "waveguide",
+    "SLAM",
+    "OpenXR",
+    "mixed reality",
+    "computer vision"
+  ]
+}
