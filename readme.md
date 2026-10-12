@@ -1,5 +1,7 @@
 # Awesome AR [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308995.svg)](https://doi.org/10.5281/zenodo.23308995)
+
 > Augmented reality: the see-through optics, the tracking that decides where the world is, the standards built on top, and sixty years of demos behind them.
 
 Augmented reality is the harder half of the problem, because you cannot fake the world. A virtual reality headset only has to be convincing; an AR display has to agree with the room, frame after frame, while your head moves. That agreement is called registration, and it has been the subject's central difficulty since Ivan Sutherland hung a see-through display from a ceiling in 1968. Richard Holloway measured it in 1995 and reached a conclusion the field still lives with: even at moderate head speeds, system delay causes more registration error than every other source combined.
