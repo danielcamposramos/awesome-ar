@@ -157,6 +157,7 @@ The editions and what each document covers are pinned in [standards.md](standard
 - [Khronos OpenXR Registry](https://registry.khronos.org/OpenXR/) - The OpenXR specification itself, with headers and conformance material.
 - [glTF 2.0](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html) - Khronos's runtime 3D asset format, the one most AR content pipelines move geometry through.
 - [Alliance for OpenUSD](https://aousd.org/) - The Linux Foundation body standardising OpenUSD, the scene format behind Apple's USDZ.
+- [OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD) - Pixar's open-source implementation of Universal Scene Description, the code that the Alliance's standard and Apple's USDZ build on.
 - [MPEG-I](https://www.mpeg.org/standards/MPEG-I/) - ISO/IEC 23090, the family of coded immersive media standards: omnidirectional video, immersive audio, point clouds and scene description.
 - [W3C Immersive Web Working Group](https://www.w3.org/groups/wg/immersive-web/charters/active) - The charter of the group that writes the WebXR specifications.
 - [Metaverse Standards Forum](https://metaverse-standards.org/) - A coordination forum launched in June 2022; it aligns requirements across standards bodies rather than publishing standards itself.
