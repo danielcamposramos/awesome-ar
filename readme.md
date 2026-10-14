@@ -4,11 +4,14 @@
 
 > Augmented reality: the see-through optics, the tracking that decides where the world is, the standards built on top, and sixty years of demos behind them.
 
-Augmented reality is the harder half of the problem, because you cannot fake the world. A virtual reality headset only has to be convincing; an AR display has to agree with the room, frame after frame, while your head moves. That agreement is called registration, and it has been the subject's central difficulty since Ivan Sutherland hung a see-through display from a ceiling in 1968. Richard Holloway measured it in 1995 and reached a conclusion the field still lives with: even at moderate head speeds, system delay causes more registration error than every other source combined.
+Augmented reality is the harder half of the problem, because you cannot fake the world.
+A virtual reality headset only has to be convincing; an AR display has to agree with the room, frame after frame, while your head moves.
+That agreement is called registration, and it has been the subject's central difficulty since Ivan Sutherland hung a see-through display from a ceiling in 1968.
+Richard Holloway measured it in 1995 and reached a conclusion the field still lives with: even at moderate head speeds, system delay causes more registration error than every other source combined.
 
 This list collects the optics, the tracking, the SDKs and the standards, with the history that explains the vocabulary and the closures that explain the caution.
 
-*AI was leveraged as a partner in the development of this work — [more information here](PROVENANCE.md).*
+*AI was leveraged as a partner in the development of this work: [more information here](PROVENANCE.md).*
 
 ## Contents
 
@@ -123,7 +126,8 @@ This list collects the optics, the tracking, the SDKs and the standards, with th
 
 ## Tracking and mapping
 
-Registration is a tracking problem before it is a graphics problem. These are the systems that answer "where am I, and where is the world".
+Registration is a tracking problem before it is a graphics problem.
+These are the systems that answer "where am I, and where is the world".
 
 - [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) - Building a map of an unknown space while tracking yourself inside it. It is what makes inside-out headsets and phone AR possible at all.
 - [Visual odometry](https://en.wikipedia.org/wiki/Visual_odometry) - Position and orientation from camera images alone; add an inertial measurement unit and it becomes visual-inertial odometry, which is what every current device actually runs.
@@ -181,7 +185,10 @@ The editions and what each document covers are pinned in [standards.md](standard
 
 ### Digital twins
 
-VR takes a person into a digital twin; AR brings the twin to the place, registered on the real thing, so a building's model can be seen on its construction site or a city's plan on its street. That only works if the device knows where it stands in the twin's coordinates, which is the job of the [geospatial anchoring standards](standards.md#geospatial-anchoring). The full-scale, remote side of twins is in [awesome-vr](https://github.com/danielcamposramos/awesome-vr#digital-twins). The section was prompted by a digital-twin discussion that Milton Ponson, co-chair of the W3C Procedural Memory Knowledge Representation Community Group, shared with Daniel.
+VR takes a person into a digital twin; AR brings the twin to the place, registered on the real thing, so a building's model can be seen on its construction site or a city's plan on its street.
+That only works if the device knows where it stands in the twin's coordinates, which is the job of the [geospatial anchoring standards](standards.md#geospatial-anchoring).
+The full-scale, remote side of twins is in [awesome-vr](https://github.com/danielcamposramos/awesome-vr#digital-twins).
+The section was prompted by a digital-twin discussion that Milton Ponson, co-chair of the W3C Procedural Memory Knowledge Representation Community Group, shared with Daniel.
 
 - [ARCore Geospatial API](https://developers.google.com/ar/develop/geospatial) - Google's anchoring at the scale of the planet: the camera view is matched against a localisation model built from Street View imagery, a global 3D point cloud, so content can be placed by latitude and longitude, on terrain or on rooftops, wherever Street View has been.
 - [Photorealistic 3D Tiles](https://developers.google.com/maps/documentation/tile/3d-tiles) - Google's textured 3D mesh of many of the world's populated areas, served to any [OGC 3D Tiles](https://www.ogc.org/standards/3dtiles/) renderer, such as CesiumJS. It needs a billing account and an API key, and developers billed in the European Economic Area have had separate terms since 8 July 2025, under which some Map Tiles content is no longer returned.
@@ -225,7 +232,8 @@ AR has buried more products than it ships, and the dates matter for anyone decid
 
 ## In fiction
 
-Fiction reached augmented reality first and got as much wrong as right. Each entry says which.
+Fiction reached augmented reality first and got as much wrong as right.
+Each entry says which.
 
 - [Star Wars](https://en.wikipedia.org/wiki/Holography_in_fiction) - Princess Leia's 1977 message, a figure standing in empty air and visible from any side, is the image most people mean by "hologram". Real holograms need a surface or plate to form on; stage "holograms" are Pepper's ghost (see History), and depth without glasses is the subject of [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy) and [awesome-holography](https://github.com/bchao1/awesome-holography).
 - [The Terminator](https://www.pagetable.com/?p=64) - The T-800's 1984 point-of-view display overlays text and targeting on the scene, a head-up display in all but name (see the F-35 helmet above). Its scrolling "code" is real Apple II 6502 assembly taken from *Nibble* magazine.
@@ -257,20 +265,28 @@ Fiction reached augmented reality first and got as much wrong as right. Each ent
 
 ## Known gaps
 
-Stated openly, because a list that hides its blind spots is worse than one that names them. These are the places this list is weakest, and the contributions most wanted:
+Stated openly, because a list that hides its blind spots is worse than one that names them.
+These are the places this list is weakest, and the contributions most wanted:
 
-**Chinese, Japanese and Korean AR** now has its own section, but it is built from English-language official pages. Makers publishing mainly in their own languages are still missing, and so is Shadow Creator, whose site refused an automated check. Contributions in any language are wanted; cite what you can.
+**Chinese, Japanese and Korean AR** now has its own section, but it is built from English-language official pages.
+Makers publishing mainly in their own languages are still missing, and so is Shadow Creator, whose site refused an automated check.
+Contributions in any language are wanted; cite what you can.
 
 **Industrial deployments** have a first measured account (Boeing's 2016 wire-harness pilot) and a survey, but still too few independent results on what current factory and field-service AR achieves.
 
-**Communities** are represented by their associations. The active discussion forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
+**Communities** are represented by their associations.
+The active discussion forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
 
-**Digital twins on site** have a section built mostly from the platforms' and standards bodies' own pages, and one measured study (a tourism tour). Measured results from AR used against a live twin, on a construction site or a street, are wanted.
+**Digital twins on site** have a section built mostly from the platforms' and standards bodies' own pages, and one measured study (a tourism tour).
+Measured results from AR used against a live twin, on a construction site or a street, are wanted.
 
-**Automotive AR** has its own section now, from suppliers and a review. Carmakers' own documentation of production AR-HUDs could not be verified yet.
+**Automotive AR** has its own section now, from suppliers and a review.
+Carmakers' own documentation of production AR-HUDs could not be verified yet.
 
-**Two former discrepancies are resolved** from primary sources: Project North Star was announced as Apache-2.0 but ships GPL-3.0, and ARCore appeared as a preview in August 2017 and as 1.0 in February 2018. Both entries now say so.
+**Two former discrepancies are resolved** from primary sources: Project North Star was announced as Apache-2.0 but ships GPL-3.0, and ARCore appeared as a preview in August 2017 and as 1.0 in February 2018.
+Both entries now say so.
 
 ## Contributing
 
-Contributions are welcome. Read the [contribution guidelines](contributing.md) first.
+Contributions are welcome.
+Read the [contribution guidelines](contributing.md) first.

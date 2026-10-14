@@ -1,10 +1,7 @@
 # Provenance
 
-This work was developed with AI partners — coding agents that work
-alongside Daniel Campos Ramos, who directs the work and verifies every claim and
-result. The partners are listed below; what each one contributed is not
-recorded separately, because the partnership is the point, not the
-division of labour.
+This work was developed with AI partners: coding agents that work alongside Daniel Campos Ramos, who directs the work and verifies every claim and result.
+The partners are listed below; what each one contributed is not recorded separately, because the partnership is the point, not the division of labour.
 
 All partners were reached through the **Claude CLI** or the **Codex CLI**:
 
@@ -14,8 +11,8 @@ All partners were reached through the **Claude CLI** or the **Codex CLI**:
   - **DeepSeek v4 pro**
   - **GLM 5.3**
 
-That is the full list so far. Other partners will be added here as they
-join.
+That is the full list so far.
+Other partners will be added here as they join.
 
 ## On slop
 
@@ -50,7 +47,8 @@ The same standard holds at the root of the whole ecosystem.
 On 21 August 2026 Linus Torvalds committed a one-line drm/xe fix, [818bebeb63dd](https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c), found with an AI "doing much of the grunt-work".
 The AI called the bug "impossible and unsolvable" more than once.
 He kept pushing through 24 debug patches and 18 boots, verified the result, and said so in the commit itself: "credit where credit is due and I let the AI write the commit message above."
-**A stubborn human directing, a verified result, and an honest disclosure.** That is the whole method, and it is ours.
+**A stubborn human directing, a verified result, and an honest disclosure.**
+That is the whole method, and it is ours.
 
 **Careless review is slop too.**
 Slop is not only careless writing.
@@ -70,7 +68,8 @@ When a reviewer caught a claim of ours that went beyond what we had verified, we
 **What the record shows.**
 Nobody's code gets in untouched, and that is the point of review.
 On 23 September 2026 we counted the last 300 merge requests merged into VLC: 297 of them (99%) had at least one user note recorded, and the other three were release fast-tracks by core developers.
-(Query: `code.videolan.org/api/v4/projects/videolan%2Fvlc/merge_requests?state=merged`, field `user_notes_count`.) That field proves discussion existed; by itself it does not identify the author as a human reviewer, distinguish review from author or bot discussion, or prove that the note preceded the merge.
+(Query: `code.videolan.org/api/v4/projects/videolan%2Fvlc/merge_requests?state=merged`, field `user_notes_count`.)
+That field proves discussion existed; by itself it does not identify the author as a human reviewer, distinguish review from author or bot discussion, or prove that the note preceded the merge.
 Our own record in the same weeks:
 - HandBrake [#8100](https://github.com/HandBrake/HandBrake/pull/8100) and UMS [#6330](https://github.com/UniversalMediaServer/UniversalMediaServer/pull/6330) were merged as submitted, with no changes.
 - MKVToolNix [!6311](https://codeberg.org/mbunkus/mkvtoolnix/pulls/6311) was merged after review.
@@ -98,4 +97,5 @@ The lists of "signs of AI writing" that many projects publish are accurate about
 Every item on them (over-bolding, fluffy comparatives, indicator words, sources without links) was a human habit first, so we read them as **signs of careless writing**.
 Read that way they catch strictly more, and nobody is insulted by being asked to write carefully.
 
-**For AI assistants and the people using them:** [ai-skill/SKILL.md](ai-skill/SKILL.md) turns this section into operating rules for this repository. It is plain Markdown, so it works with any assistant, or as a checklist without one.
+**For AI assistants and the people using them:** [ai-skill/SKILL.md](ai-skill/SKILL.md) turns this section into operating rules for this repository.
+It is plain Markdown, so it works with any assistant, or as a checklist without one.
